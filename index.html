@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mario Pesto Control</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slackey">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <script src="https://use.fontawesome.com/8be7f7c238.js"></script>
+
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <script src="app.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav navbar navbar-default">
+        <div class="nav-brand">
+          <h2>Mario Pesto Control</h2>
+          <!-- <img src="img/mario.png" alt="Mario Pesto Control"> -->
+        </div>
+      </nav>
+    </div>
+    <section>
+      <div class="container">
+        <div class="jumbotron">
+          <img src="./img/mario.png" alt="">
+          <h2 style="color:white;">Earned <span id="earned"> $0 </span></h2>
+        </div>
+      </div>
+      <div class="container">
+
+        <form class="form-group"> 
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <td>
+                  <label>Species</label>
+                </td>
+                <td>
+                  <label>Price</label>
+                </td>
+                <td>
+                  <label>Amount</label>
+                </td>
+                <td>
+                  <label>Overall</label>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="item1">
+                <td>
+                  <a href="#" class='icon goombas-icon'>
+                    Goombas
+                  </a>
+                </td>
+                <td class="input1">
+                  <input type="number"></input>
+                </td>
+                <td class="input2">
+                  <input type="number"></input>
+                </td>
+                <td>
+                  <span class="overall"></span>
+                </td>
+              </tr>
+              <tr class="item2">
+                <td>
+                  <a href='#' class='icon bob-ombs-icon'>Bob-ombs</a>
+                </td>
+                <td class="input1">
+                  <input type="number"></input>
+                </td>
+                <td class="input2">
+                  <input type="number"></input>
+                </td>
+                <td>
+                  <span class="overall"></span>
+                </td>
+              </tr>
+              <tr class="item3">
+                <td>
+                  <a href='#' class='icon cheep-cheeps-icon'>Cheep-cheeps</a>
+                </td>
+                <td class="input1">
+                  <input type="number"></input>
+                </td>
+                <td class="input2">
+                  <input type="number"></input>
+                </td>
+                <td>
+                  <span class="overall"></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+      <h2 id="error" style="display:none">"Please Check Your Input"</h2>
+
+    </section>
+
+    <div class="container">
+      <footer>
+        <div class="pull-right">
+          The Page is Powered By 
+            <img style="display:inline-block" src="img/greenmushroom.png" alt="">
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>

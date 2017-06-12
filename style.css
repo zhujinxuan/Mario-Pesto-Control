@@ -1,0 +1,86 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1, h2, h3{
+  font-family: 'Slackey', cursive;
+  color:red;
+}
+.navbar{
+  background-color:yellow;
+}
+.jumbotron{
+  background-color: red;
+  text-align:center;
+}
+
+.center{
+  margin: 0 auto;
+  float:none;
+}
+
+footer{
+  height:50px;
+  background-color:yellow;
+  color:green;
+}
+
+footer img{
+  max-height:50px;
+}
+
+.jumbotron img{
+  max-height:20vh;
+}
+
+input.form-control {
+  width: auto;
+}
+
+.icon:after{
+  content: '';
+  display: inline-block;
+  height: 40px;  /*height of icon */
+  width: 40px;  /*width of icon */
+  position:relative;
+  /*where to replace the icon */
+  top: 5px;
+  right: 0px;
+  /*background */
+}
+
+.icon.goombas-icon:after{
+  background: #F8E6AE url('img/Goomba.png') no-repeat 0px 0px;
+  background-size:cover;
+}
+
+
+.icon.bob-ombs-icon:after{
+  background: #F8E6AE url('img/Bob-omb.png') no-repeat 0px 0px;
+  background-size:cover;
+}
+
+.icon.cheep-cheeps-icon:after{
+  background: #F8E6AE url('img/greenmushroom.png') no-repeat 0px 0px;
+  background-size:cover;
+}
+
+.bounce:after{
+  animation-duration: 0.5s;
+  animation-name: bounce;
+  position:relative;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce{
+  0%{
+    top:5px
+  }
+  50%{
+    top:-10px;
+  }
+  100%{
+    top:5px;
+  }
+}
