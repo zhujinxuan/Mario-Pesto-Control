@@ -3,10 +3,17 @@
 }
 
 
-h1, h2, h3{
+.h1, .h2, .h3{
   font-family: 'Slackey', cursive;
   color:red;
 }
+
+@media (max-width :576px){
+  .h2,.h3{
+    font-size:1em;
+  }
+}
+
 .navbar{
   background-color:yellow;
 }
@@ -32,6 +39,11 @@ footer img{
 
 .jumbotron img{
   max-height:20vh;
+}
+@media (max-width:576px){
+  .jumbotron img{
+    max-height:10vh;
+  }
 }
 
 input.form-control {
@@ -84,3 +96,5 @@ input.form-control {
     top:5px;
   }
 }
+input {display: block; padding: 0; margin: 0;  width: 100%;}
+td {margin: 0; padding: 0;}
